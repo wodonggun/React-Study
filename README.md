@@ -39,3 +39,6 @@ https://jeong-pro.tistory.com/198
 
 ## jpa insert default 적용 + prePersit preXXXX 
 https://dotoridev.tistory.com/6
+
+## 기술블로그
+https://velog.io/@teo
