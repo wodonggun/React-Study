@@ -1,4 +1,55 @@
 # React-Study
+
+## React?
+- 리엑트란 사용자 정의 태그(컴포넌트)를 만드는 기술이다.
+- 
+## React 파일 (index.js, App.js ,index.html)
+
+- `React의 중요한 파일 3가지`
+   1.index.js
+   2. App.js
+   3. index.html  
+  
+```
+1. index.js
+src 폴더에 포함되어 있다. 메인 프로그램이라고 할 수 있다. 여기에서 HTML 템플릿 및 JavaScript의 컴포넌트를 조합하여 렌더링하고 실제 표시한다.
+
+2. App.js
+src 폴더에 있다. 이것은 컴포넌트를 정의하는 프로그램이다. 실제로 화면에 표시되는 내용 등은 여기에서 정의된다.
+
+3. index.html
+public 폴더에 있다. 메인 프로그램인 index.js에 대응되는 것으로, HTML 템플릿 파일이다. 이 파일이 직접 표시되는 것은 아니고,
+index.js에 의해 일어 와서 렌더링된 결과가 표시된다. (index.html 이름을 바꿀시 오류발생)
+```
+
+## 구조
+- `npm start` : index.js를 찾고 그 안에 적혀있는 내용으로 동작하는 구조
+
+
+## tut-react-and-spring-data-rest
+로그인 UI 방법
+https://spring.io/guides/tutorials/react-and-spring-data-rest/  
+```
+cd ~/workspace-react
+cd okreact/tut-react-and-spring-data-rest/security
+npm i
+./mvnw spring-boot:run
+localhost:8080
+```
+
+- `공부사이트` : https://codebase.show/projects/realworld
+- `샘플코드` : https://github.com/romansndlr/react-vite-realworld-example-app (react + vite)
+```
+<샘플코드 다운후>
+cd ~/workspace-react/okreact
+git clone https://github.com/romansndlr/react-vite-realworld-example-app
+cd react-vite-realworld-example-app
+rm -rf .git
+```
+
+- `Front public 배포사이트` : https://app.netlify.com/  (Deploy쪽 알아서 세팅해서 배포= react-vite-realworld-example-app )
+
+## 리엑트 공부
 리엑트 공부
 - `배포` : https://app.netlify.com/sites/lambent-dasik-1d4e61/settings/deploys
 - 
