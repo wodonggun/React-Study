@@ -42,3 +42,14 @@ https://dotoridev.tistory.com/6
 
 ## 기술블로그
 https://velog.io/@teo
+
+
+## useNavigate
+Navigate를 통해서 페이지를 이동할 수 있다. 인자도 같이 넘겨서 받을 수 있음.
+```
+라우터 5.0 버전에서의 useHistory의 기능 중 { go, goBack, goForward }는 각각 해당 위치로, 이전으로, 다음으로 의 역할을 수행해왔는데,
+이 부분도 navigate로 통일하고 index를 넣음으로써 해결
+```
+![image](https://user-images.githubusercontent.com/35188271/174535076-a114629c-2584-4016-8e41-07413654419b.png)
+![image](https://user-images.githubusercontent.com/35188271/174535090-56c14057-ddd7-4c8a-a89f-22b58d3587e3.png)
+
