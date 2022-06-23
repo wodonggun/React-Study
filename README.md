@@ -104,3 +104,15 @@ Navigate를 통해서 페이지를 이동할 수 있다. 인자도 같이 넘겨
 ![image](https://user-images.githubusercontent.com/35188271/174535076-a114629c-2584-4016-8e41-07413654419b.png)
 ![image](https://user-images.githubusercontent.com/35188271/174535090-56c14057-ddd7-4c8a-a89f-22b58d3587e3.png)
 
+
+## var, let, const 차이점
+- `let` : 재할당 가능
+- `const` : 재할당 불가
+- `var` : 재선언과 할당이 마음대로 가능해서 나중에 파악하기 힘들어짐  
+```
+    var name = 'bathingape'
+    console.log(name) // bathingape
+
+    var name = 'javascript'
+    console.log(name) // javascript
+```
