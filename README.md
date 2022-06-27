@@ -116,3 +116,14 @@ Navigate를 통해서 페이지를 이동할 수 있다. 인자도 같이 넘겨
     var name = 'javascript'
     console.log(name) // javascript
 ```
+
+
+## react history -> navigate
+![image](https://user-images.githubusercontent.com/35188271/175935891-a4adc904-c1e4-4a3d-97a8-0fc164bd4db0.png)  
+history는 React Router V4 라이브러리의 탐색 객체이다.  
+`action, location, .push() , .replace()`등이 있다.  
+![image](https://user-images.githubusercontent.com/35188271/175936586-ac5d0203-3cbb-4460-a7c5-30a07ec9e542.png)  
+    
+`Link` : 정적으로 페이지를 새로고치지않고 경로 이동 가능.
+`Navigate` : Link와 동일하지만, 라우터 후크이면서 onSubmit과 같이 프로그래밍 방식으로 경로를 탐색 가능하고, 다른페이지로 리다이렉션됨.
+
