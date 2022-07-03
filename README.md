@@ -127,3 +127,20 @@ history는 React Router V4 라이브러리의 탐색 객체이다.
 `Link` : 정적으로 페이지를 새로고치지않고 경로 이동 가능.
 `Navigate` : Link와 동일하지만, 라우터 후크이면서 onSubmit과 같이 프로그래밍 방식으로 경로를 탐색 가능하고, 다른페이지로 리다이렉션됨.
 
+
+
+
+## react 포트 설정
+
+
+1.pakcage.json에 강제 설정
+![image](https://user-images.githubusercontent.com/35188271/177030584-5e0ac826-4640-4187-8a0e-87677754bf65.png)
+
+
+## local서버, public서버 주소 스위칭 (env-cmd )
+```
+env를 통해서 빌드환경에 따라 환경변수를 읽어옴.
+env-cmd 라이브러리를 통해서 쉽게 사용 가능.
+```
+1. 기본적으로 `.env.local` `.env.production` 두개의 파일로 로컬과 운영을 나눔  
+https://velog.io/@leehaeun0/CRA-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EB%B0%B0%ED%8F%AC-%EC%8B%9C-.env-%EB%B6%84%EA%B8%B0%ED%95%98%EA%B8%B0-feat.-env-cmd
